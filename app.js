@@ -1,1 +1,1 @@
-console.log("Test app foo");
+console.log("Test app foo bar");
