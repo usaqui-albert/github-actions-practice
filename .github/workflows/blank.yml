@@ -17,6 +17,7 @@ on:
 jobs:
   # This workflow contains a single job called "build"
   build:
+    name: Build Job
     # The type of runner that the job will run on
     runs-on: ubuntu-latest
 
@@ -36,6 +37,7 @@ jobs:
           echo test, and deploy your project.
 
   build-api:
+    name: Build API Job
     runs-on: macos-latest
     steps:
       - name: Foo
